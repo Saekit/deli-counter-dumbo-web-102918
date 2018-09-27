@@ -6,6 +6,6 @@ def line(katz_deli)
     numsNames = []
     first = "The line is currently:"
     katz_deli.each {|name| numsNames << "#{katz_deli.index(name) + 1}. #{name}"}
+    puts "#{first} #{numsNames.join(" ")}"
   end
-  puts "#{first} #{numsNames.join(" ")}"
 end
