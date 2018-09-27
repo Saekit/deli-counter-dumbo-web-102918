@@ -9,3 +9,8 @@ def line(katz_deli)
     puts "#{first} #{numsNames.join(" ")}"
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli << name
+  
+end
